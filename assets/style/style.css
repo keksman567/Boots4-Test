@@ -223,7 +223,7 @@ color: white;
 	top: 100%;
 }
 
-.tabs_item a, a:hover {
+.tabs_item:hover {
 	color: white !important;
 	background-color: #C8A35F;
 }
