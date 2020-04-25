@@ -1,0 +1,351 @@
+a:hover {
+	text-decoration: none !important;
+}
+
+/*HEADER*/
+.top_header {
+	background-color: #C8A35F;
+}
+
+.Lang_type a {
+	vertical-align: middle;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.disabled {
+	opacity: 0.5;
+}
+
+.contact_info_number {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 24px;	
+	color: #FFFFFF;
+}
+
+.contact_info_email {
+	text-align: end;
+	padding-right: 2% !important;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 24px;	
+	color: #FFFFFF;
+}
+
+.background_img_header {
+	background-repeat: no-repeat;
+	background-image: url(img/MainBG.png);
+}
+
+.bottom_header {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+}
+
+.navbar-text {
+	color: white !important;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+.main_info {
+	padding-top: 200px;
+	padding-bottom: 197px;
+}
+.main_info h1{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 75px;
+	letter-spacing: 0.05em;
+	color: white;
+}
+
+.main_info p {
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 28px;
+color: white;
+}
+
+.banner {
+	border: solid;
+	border-color: #C8A35F;
+	border-width: 1px;
+}
+
+/*CAROUSEL STYLE*/
+.services {
+	
+	align-items: center;
+	background-color: #393F47;
+}
+
+.black_square {
+	left: 4%;
+	min-height: 516px !important;
+	height: 100%;
+	background-color: #2F343A;
+}
+
+.carousel {
+	right: 8%;
+}
+
+.Service_img {
+ height: 267px;
+}
+
+.next_btn {
+	right: 0;
+	top: -10%;
+	position: absolute;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #C8A35F;
+}
+
+
+.next_btn img {
+	padding-left: 31px;
+}
+
+.prev_btn {
+	right: 0;
+	position: absolute;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #C8A35F;
+}
+
+.prev_btn img {
+	padding-right: 31px;
+}
+
+.btn {
+	background-color: #C8A35F;
+	border-radius: 0 !important;
+	font-style: normal;
+	font-weight: 500 !important;
+	font-size: 16px !important;
+	line-height: 25px !important;
+	text-align: center !important;
+	letter-spacing: 0.1em !important;
+	text-transform: uppercase;
+	color: white;
+}
+
+.service_info {
+	left: 18%;
+    z-index: 1;
+}
+
+.service_desc {
+	width: 365px;
+	height: 45px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.service_title {
+	width: 445px;
+	height: 86px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+/*TABS STYLE*/
+
+.services_tabs {
+	align-items: center;
+	text-align: center;
+	background-color: #2F343A;
+}
+
+.tabs {
+	flex-wrap: wrap;
+}
+
+.tabs_item {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: white !important;
+	margin: 1px;
+	flex-wrap: wrap;
+	background: #393F47;
+	padding: 5%
+}
+
+.tabs_item img {
+	position: relative;
+    bottom: 130%;
+    left: 49%;
+}
+
+.tabs_item span {
+	position: relative;
+	top: 100%;
+}
+
+.tabs_item a, a:hover {
+	color: white !important;
+	background-color: #C8A35F;
+}
+
+
+/*COMPANY INFO STYLE*/
+.about_company {
+	align-items: center;
+	background-color: #2F343A;
+}
+
+.company_info {
+	left: 18%;
+    z-index: 1;
+}
+
+.company_desc {
+	width: 432px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #FFFFFF;
+}
+
+.grey_square {
+	left: 4%;
+	min-height: 516px !important;
+	height: 100%;
+	background-color: #393F47;
+}
+
+.about_company_plates {
+	bottom: 20px;
+	flex-wrap: wrap;
+	right: 8%;
+}
+
+.plates_item {
+	border: 0.25px solid #C8A35F;
+	box-sizing: border-box;
+	vertical-align: middle;
+	width: 200px;
+	height: 160px;
+	background: white;
+}
+
+.plates_title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #2F343A;
+}
+
+.plates_info {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #000000;
+}
+
+.plates_more_info {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #000000;
+}
+
+/*FOOTER*/
+.footer_info {
+	background-color: #C8A35F;
+}
+
+
+.adress {
+	right: 31%;
+    top: 5px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #F2F2F2;
+	opacity: 0.8;
+}
+
+.email {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	color: #2F343A;
+}
+
+.contact_number {
+	width: 147px;
+	left: 45%;
+    position: absolute !important;
+	font-size: 14px;
+	color: #F2F2F2;
+}
+
+.developer {
+	margin-left: 0%;
+    margin-right: 2%;
+}
+
+.developer a {
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration-line: underline;
+	color: #2F343A;
+}
